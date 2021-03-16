@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.navbar-brand{
+  font-family: 'Playfair Display', serif!important;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left:10px;
+}
+#item{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-top: 23px!important;
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#item1{
+  font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-top: 23px!important;
+    margin-right: 10px;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#font{
+  font-family: 'Dancing Script', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#login{
+  font-family: 'Dancing Script', cursive;
+}
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left:auto !important
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#product{
+  font-family: 'Lobster', cursive!important;
 }
